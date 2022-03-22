@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="advance.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="download.svg" alt="logo" class="logoa">
+    <div>
+        <ul class="ul">
+            <li><a
+                    href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3F%26hl%3Den&ec=GAZAmgQ"><button
+                        id="sign">sign
+                        in</button></a></li>
+            <li><img src="dots.webp" height="25px" width="25px"></li>
+        </ul>
+    </div>
+    <div id="font">
+        <label style="margin-left:10px">Advanced Search</label>
+    </div>
+    <div class="advancesearch">
+        <form class="advancesearch" action="https://www.google.com/search">
+            <input type="text" name="as_q">
+            <input type="hidden" name="as_epq">
+            <input type="hidden" name="as_oq">
+            <input type="hidden" name="as_eq">
+            <input type="hidden" name="tbs" value=":">
+            <p>all these words:
+            </p>
+            <form class="advancesearch" action="https://www.google.com/search">
+                <input type="hidden" name="as_q">
+                <input type="text" name="as_epq">
+                <input type="hidden" name="as_oq">
+                <input type="hidden" name="as_eq">
+                <input type="hidden" name="tbs" value=":">
+                <p>this exact word or phrase </p>
+
+            </form>
+            <form class="advancesearch" action="https://www.google.com/search">
+                <input type="hidden" name="as_q">
+                <input type="hidden" name="as_epq">
+                <input type="text" name="as_oq">
+                <input type="hidden" name="as_eq">
+
+                <input type="hidden" name="tbs" value=":">
+                <p>any of these words:
+                </p>
+            </form>
+            <form class="advancesearch" action="https://www.google.com/search">
+                <input type="hidden" name="as_q">
+                <input type="hidden" name="as_epq">
+                <input type="hidden" name="as_oq">
+                <input type="text" name="as_eq">
+                <input type="hidden" name="tbs" value=":">
+                <p>none of these words:
+                </p>
+            </form>
+    </div>
+
+</body>
+
+</html>
