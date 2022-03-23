@@ -83,6 +83,7 @@ ul {
    padding-left: 14px;
    padding-right: 8px;
    width: 560px;
+   cursor: pointer;
    
    
 
@@ -114,8 +115,9 @@ ul {
     height: 36px;
     min-width: 54px;
     text-align: center;
-    cursor: pointer; 
+    cursor:pointer ; 
     user-select: none;
+    
 
 
 }
@@ -130,6 +132,59 @@ bottom: 0;
 width: 100%;
 color: white;
 text-align: center;
+}
+.footer1
+{
+  color: rgb(32, 33, 36);
+display: flex;
+flex-wrap: wrap;
+font-family: arial, sans-serif;
+font-size: 14px;
+height: 92px;
+justify-content: space-evenly;
+padding-bottom: 0px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 0px;
+width: 502px;
+}
+.footer2{
+ 
+}
+.footer3{
+  color: rgb(32, 33, 36);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 46px;
+  justify-content: space-evenly;
+  width: 399.375px
+}
+.footer3 li{
+  color: rgb(112, 117, 122);
+cursor: auto;
+display: block;
+font-family: arial, sans-serif;
+font-size: 14px;
+height: 16px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 15px;
+text-decoration: underline;
+white-space: nowrap;
+width: 56.8125px;
+}
+.footer2{
+  color: rgb(32, 33, 36);
+display: flex;
+flex-wrap: wrap;
+font-family: arial, sans-serif;
+font-size: 14px;
+height: 46px;
+justify-content: space-evenly;
+width: 224.625px
 }
 
 
